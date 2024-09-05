@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Career Quiz</title>
+    <link rel="stylesheet" href="C:\Users\itsja\OneDrive\Desktop\git demo\LocalRepo\style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Career Guidance Quiz</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quiz.html">Career Quiz</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="quiz-section">
+        <div class="container">
+            <h2>Discover Your Ideal Career</h2>
+            <p>Answer the following questions to get career suggestions based on your interests and skills.</p>
+
+            <form id="careerQuiz" action="result.html" method="GET">
+                <label for="q1">1. Do you enjoy solving complex problems?</label>
+                <select id="q1" name="q1">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+
+                <label for="q2">2. Are you more creative or analytical?</label>
+                <select id="q2" name="q2">
+                    <option value="creative">Creative</option>
+                    <option value="analytical">Analytical</option>
+                </select>
+
+                <label for="q3">3. Do you prefer working with people or with technology?</label>
+                <select id="q3" name="q3">
+                    <option value="people">People</option>
+                    <option value="technology">Technology</option>
+                </select>
+
+                <label for="q4">4. What motivates you more, learning new things or achieving goals?</label>
+                <select id="q4" name="q4">
+                    <option value="learning">Learning</option>
+                    <option value="goals">Achieving goals</option>
+                </select>
+
+                <button type="submit" class="btn">Submit Quiz</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Career Guidance. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
